@@ -4,6 +4,8 @@ run 'rm -Rf test'
 gem 'simple_form'
 gem 'rack-git_sha'
 gem 'active_model_serializers'
+gem 'haml-rails'
+gem 'autoprefixer-rails'
 
 gem_group :development do
   gem 'better_errors'
