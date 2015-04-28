@@ -6,6 +6,7 @@ gem 'rack-git_sha'
 gem 'active_model_serializers'
 gem 'haml-rails'
 gem 'autoprefixer-rails'
+gem 'paranoia'
 
 gem_group :development do
   gem 'better_errors'
@@ -65,4 +66,3 @@ generate('rspec:install')
 run 'guard init rspec'
 
 route "mount Rack::GitSha => '/sha'"
-
